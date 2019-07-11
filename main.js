@@ -1,6 +1,6 @@
 class Slide {
   constructor(element) {
-    element.addEventListener('mousedown', () => {
+    element.addEventListener('click', () => {
       this.iterate();
       this.show();
     });
