@@ -25,3 +25,12 @@ a {
 .highlight {
   color: #ffe16b;
 }
+
+.img-row {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.img-row > * {
+  width: 50%;
+}
